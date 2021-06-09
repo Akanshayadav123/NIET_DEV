@@ -78,7 +78,7 @@ console.log(movies.length);
 //keys are always unique
 //values may be duplicates
 let avenger = {
-    "full name": "Steve Rogers",
+    full_name: "Steve Rogers",
     place: "Queens",
     skills: [
       "Martial Arts",
