@@ -9,10 +9,10 @@ function callMe( name ){
 }
 
 // function invocation/call
-// console.log( callMe  );
+ //console.log( callMe  );
 
-// let rVal = callMe();
-// console.log( rVal );
+//  let rVal = callMe();
+//  console.log( rVal );
 // functions and variable me koe difference nhi hai
 
 // callMe( "steve" );
@@ -23,12 +23,14 @@ function callMe( name ){
 
 //sayHi();
 
-// valid syntax
+//valid syntax
 let sayHi = function(){
     console.log("Function says Hiii !!!");
 }
 
-// sayHi();
+ sayHi();
+
+
 
 
 

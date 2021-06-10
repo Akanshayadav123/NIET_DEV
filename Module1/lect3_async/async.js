@@ -17,3 +17,6 @@ console.log("end");
 
 
 // what if we need to read multiple files in a async mode parallely !
+
+
+

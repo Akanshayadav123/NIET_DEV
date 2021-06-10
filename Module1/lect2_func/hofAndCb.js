@@ -1,6 +1,8 @@
 // High order functions
 // Those functions which accept functions as a parameter
 
+
+
 // Callback functions
 // Functions which are passed as a argument in a high order function
 
@@ -27,3 +29,8 @@ function callMe( fullName , fun ){
 
 callMe("Steve Rogers" , getFirstName);
 callMe("TOny Stark" , getLastName);
+
+// function Call(){
+//     console.log("hello")
+// }
+// Call();

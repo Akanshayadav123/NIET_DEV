@@ -25,3 +25,6 @@ console.log(y);
 
 console.log(a);
 var a = 20;
+
+// console.log(b);
+// let b = 20;

@@ -4,6 +4,7 @@ let extensions = require("./extensions");
 let testFolderPath = "./testFolder";
 
 // fs function which gives content of a directory
+//readdirSync returns an array of elements in directory
 
 let contents = fs.readdirSync(testFolderPath);
 // console.log(contents);
@@ -36,6 +37,7 @@ function sortFile(file){
 function getFolderName(ext){
     // ext = "jpg"
     let folderName;
+    // for in loop
     for( let key in extensions ){
         if( extensions[key].includes(ext)){
             folderName = key;
