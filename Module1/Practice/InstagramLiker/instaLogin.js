@@ -32,7 +32,7 @@ const acc = "pepcoding";
          await tab.click(".aOOlW.HoLwm");
          await tab.waitForSelector(".eyXLr.wUAXj", {visible : true});
          await tab.click(".eyXLr.wUAXj");
-         await tab.waitForTimeout("3000");
+         await tab.waitForTimeout("2000");
          await tab.type(".XTCLo.x3qfX",acc);
          await tab.waitForSelector('div[role="none"] > a',  {visible : true});
          let allPagesTag = await tab.$$('div[role="none"] > a');

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    
+    <title>Document</title>
+</head>
+<body>
+
+    <button id="plus">+</button>
+    <h1>0</h1>
+    <button id="minus">-</button>
+   
+
+    <script>
+        let cTag = document.querySelector("h1");
+        cTag.style.backgroundColor = "red";
+
+        let plusTag = document.querySelector("#plus");
+        let minusTag = document.querySelector("#minus");
+        let c=0;
+        plusTag.addEventListener("click", function(){
+            c++;
+            cTag.innerText=c;
+        })
+
+
+        minusTag.addEventListener("click", function(){
+            c--;
+            cTag.innerText=c;
+        })
+
+    </script>
+    
+</body>
+</html>
