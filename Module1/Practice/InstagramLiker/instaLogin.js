@@ -11,7 +11,7 @@ const acc = "pepcoding";
     try{
         let browser = await puppeteer.launch({
 
-            headless: false,
+            headless: false,// dikhao k chrome khulgya
             defaultViewport: null,
             args: ["--start-maximized"],
             executablePath: "C:\\Program Files (x86)\\Google\\Chrome\\Application\\chrome.exe",
